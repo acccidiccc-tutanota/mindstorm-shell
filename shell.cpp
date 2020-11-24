@@ -28,7 +28,13 @@ void shell() {
 	}
 }
 void info() {
-	std::cout << "22 cm lange, 17 breite";	
+	std::cout << R"(
+	robot: 22 cm lange, 17 breite
+	start-satellit: strecke bis satellit 45 (3.2 Umdrehungen) , dann links drehen und12cm weiter.
+	motor: rechts = d, links = a	
+	
+	
+	)";	
 	
 	
 }
