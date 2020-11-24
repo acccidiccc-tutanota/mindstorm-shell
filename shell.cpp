@@ -33,6 +33,7 @@ void info() {
 	start-satellit: strecke bis satellit 45 (3.2 Umdrehungen) , dann links drehen und12cm weiter.
 	motor:  pin rechts = d, pin links = a	
 	kran: pin b
+	krall: pin c
 	roverpad: 33 cm
 	
 	)";	
