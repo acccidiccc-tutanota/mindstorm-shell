@@ -1,4 +1,4 @@
-# mindstorm-shell
+
 #include <iostream>
 #include <string>
 
@@ -9,9 +9,10 @@
 #define PM4 = 4
 void help();
 void hebelsteuerung(int speed, int turns);
-
+void info();
 void shell() {
 	//leistung 20 15 centimeter
+	
 	std::cout << "shell # ";
 
 	while (true) {
@@ -23,7 +24,11 @@ void shell() {
 		
 	}
 }
-
+void info() {
+	std::cout << "22 cm lange, 17 breite";	
+	
+	
+}
 void hebelsteuerung(int speed, int turns) {
 	int choice;
 	int i;
