@@ -35,7 +35,7 @@ void info() {
 	
 	
 	)";	
-	
+	shell();
 	
 }
 void hebelsteuerung(int speed, int turns) {
