@@ -21,6 +21,9 @@ void shell() {
 		if (input == "reichweite") {
 			hebelsteuerung(0, 0);
 		}
+		if  (input == "info") {
+			info();	
+		}
 		
 	}
 }
