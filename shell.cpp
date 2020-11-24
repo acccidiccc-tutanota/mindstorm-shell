@@ -31,8 +31,9 @@ void info() {
 	std::cout << R"(
 	robot: 22 cm lange, 17 breite
 	start-satellit: strecke bis satellit 45 (3.2 Umdrehungen) , dann links drehen und12cm weiter.
-	motor: rechts = d, links = a	
-	
+	motor:  pin rechts = d, pin links = a	
+	kran: pin b
+	roverpad: 33 cm
 	
 	)";	
 	shell();
