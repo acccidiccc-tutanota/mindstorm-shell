@@ -32,10 +32,11 @@ void info() {
 	robot: 22 cm lange, 17 breite
 	start-satellit: strecke bis satellit 45 (3.2 Umdrehungen) , dann links drehen und12cm weiter.
 	motor:  pin rechts = d, pin links = a	
-	kran: pin b
-	krall: pin c
+	kran: pin c
+	krall: pin b
 	roverpad: 33 cm
-	
+	kreisel sensor 1, kran: pin 1 
+	kreisel sensor 2, andere: pin 4
 	)";	
 	shell();
 	
